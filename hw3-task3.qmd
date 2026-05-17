@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-## Use a generative AI tool to help clarify the concept
+# Use a generative AI tool to help clarify High Dimensional Regression and the Curse of Dimensionality
 
 ## The concept to clarify
 
@@ -17,6 +17,6 @@ I wanted to understand the example used in section 6.4.3 "Regression in High Dim
 
 I'm an environmental data science student and I'm learning about different methods used in machine learning. I just read section 6.4 "Consideration in High Dimensions " in the course textbook "An Introduction to Statistical Learning with applications in Python". In the section 6.4.3 "Regression in High Dimensions" it talks about how "less flexible least squares models, such as forward stepwise selection, ridge regression, the lasso, and principal components regression, are particularly useful for performing regression in the high-dimensional setting" and gives and example using the lasso method on a simple simulated data. I'm having hard time following the the illustration and how it highlights the three important points "(1) regularization or shrinkage plays a key role in high-dimensional problems, (2) appropriate tuning parameter selection is crucial for good predictive performance, and (3) the test error tends to increase as the dimensionality of the problem (i.e. the number of features or predictors) increases, unless the additional features are truly associated with the response." It also mentions the "curse of dimensionality", referring to the third point. Can you break it down and explain it differently so I can have clearer understanding . I attached the image of the illustration for reference.
 
-# Reflection
+## Reflection
 
  For this task I used claud ai and gave it the promt above. I quoted two sentences one used to provided some background of the section and the second was the list of points that related to the illustration/model example.I included an screenshot of the illustration with the figure description because I needed help with interpreting it. I prompt it twice by clarifying that I couldn't interpret the boxplots and to clarify if the y-axis was the MSE and how it related to MSE dramatic changes. It didn't match the textbook exactly but broke down the information for me by relating it to the three points I gave it from the textbook and the illustration. The second prompt really clarified my understanding because it assured that the y-axis was plotting the MSE and how the dramatic changes related to the models performance. 
